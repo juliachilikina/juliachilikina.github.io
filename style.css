@@ -1,0 +1,213 @@
+
+
+body{
+    background-color: #F8E4E4;
+    margin: 0px;   
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 78px;
+    background-color: #ffffff;
+    margin: 0px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+    margin-left: 80px;
+    color: #F91559;
+    font-size: 45px;
+    font-family: 'Righteous', cursive;
+}
+
+.tabs{
+    float: right;
+    margin-right: 80px;
+    align-items: center;
+    width: 375px;
+    justify-content: space-between;
+    height: 78px;
+    display: flex;
+    flex-direction: row;
+}
+
+.oneTab{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: regular;
+}
+
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 55px;
+    line-height: 80px;
+    font-family: 'Righteous', cursive;
+    height: 400;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 78px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.tag{
+    background-color:#F91559;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 255px;
+    height: 52px;
+    text-align: center;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    float: left; 
+    stroke: none;
+}
+
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px; 
+}
+
+.card{
+    height: 420px;
+    width: 375px;
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardImage{
+    width: 335px;
+    height: 230px;
+    margin: 20px;
+}
+
+#ux1{
+    width: 305px;
+    height: 230px;
+}
+
+.cardName{
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    text-align: left;
+    width: 355px;
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;  
+}
+
+.cardDescription{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    width: 335px;
+    margin: 0px;
+    font-weight: 300;
+}
+
+.buttonArea{
+    display: flex;
+    justify-content: center;
+}
+
+.area{
+    width: 1205px;
+}
+
+
+.seeMore{
+    width: 120;
+    height: 40;
+    border-radius: 25px;
+    border: solid 3px #F91559;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #F91559;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: medium;
+    float: right;  
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.code{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+    width: 320px;
+    background-image: url("images/arrows.gif");
+    background-repeat: no-repeat;
+}
+
+h3{
+    font-size: 40px;
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+
+@media only screen and (max-width: 780px){
+    .tabs{
+        width: 250px;
+        margin-right: 50px;
+    }
+    
+    .logo{
+        margin-left: 50px;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .hello{
+        font-size: 35px;
+        line-height: 50px;
+    }
+ 
