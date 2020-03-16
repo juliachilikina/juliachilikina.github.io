@@ -161,6 +161,11 @@ body{
     margin-top: 40px;
 }
 
+.seeMore:hover{
+    background-color: #F91559;
+    color: white;
+}
+
 .code{
     height: 400px;
     display: flex;
@@ -220,8 +225,83 @@ h3{
     font-family: 'Roboto', sans-serif;
     line-height: 34px;
     text-align: justify;
-
 }
+
+.info{
+    height: 460px;
+    background-color: #BDA0A1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    height: 220px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.findOut{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialIcon{
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.linkedin{
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    margin-bottom: 6px;
+    background: transparent url("images/svg/linkedin.svg") no-repeat;
+}
+
+.linkedin:hover{
+    background: transparent url("images/svg/linkedinPink.svg") no-repeat;
+}
+
+.behance{
+    margin-top: 15px;
+    height: 40px;
+    width: 40px;
+    background: transparent url("images/svg/behance.svg") no-repeat;
+}
+
+.behance:hover{
+    background: transparent url("images/svg/behancePink.svg") no-repeat;
+}
+
+.instagram{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: transparent url("images/svg/instagram.svg") no-repeat;
+}
+
+.instagram:hover{
+    background: transparent url("images/svg/instaPink.svg") no-repeat;
+}
+
 
 
 
