@@ -273,33 +273,33 @@ h3{
     height: 34px;
     width: 34px;
     margin-bottom: 6px;
-    background: transparent url("images/svg/linkedin.svg") no-repeat;
+    background: transparent url("images/SVG/linkedin.svg") no-repeat;
 }
 
 .linkedin:hover{
-    background: transparent url("images/svg/linkedinPink.svg") no-repeat;
+    background: transparent url("images/SVG/linkedinPink.svg") no-repeat;
 }
 
 .behance{
     margin-top: 15px;
     height: 40px;
     width: 40px;
-    background: transparent url("images/svg/behance.svg") no-repeat;
+    background: transparent url("images/SVG/behance.svg") no-repeat;
 }
 
 .behance:hover{
-    background: transparent url("images/svg/behancePink.svg") no-repeat;
+    background: transparent url("images/SVG/behancePink.svg") no-repeat;
 }
 
 .instagram{
     display: inline-block;
     height: 40px;
     width: 40px;
-    background: transparent url("images/svg/instagram.svg") no-repeat;
+    background: transparent url("images/SVG/instagram.svg") no-repeat;
 }
 
 .instagram:hover{
-    background: transparent url("images/svg/instaPink.svg") no-repeat;
+    background: transparent url("images/SVG/instaPink.svg") no-repeat;
 }
 
 
