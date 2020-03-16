@@ -336,4 +336,33 @@ h3{
         margin-top: 40px;
     }
 
+
+    .me{
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutMe{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 355px;
+    }
+
+    .photo{
+        width: 355px;
+        height: 270px;
+    }
+
+    .whoIam{
+        text-align: center;
+    }
+
+    #whoIam{
+        width: 355px;
+    }
+
+
 } 
