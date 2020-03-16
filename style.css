@@ -330,4 +330,10 @@ h3{
         font-size: 35px;
         line-height: 50px;
     }
+
+    .seeMore{
+        width: 375px;
+        margin-top: 40px;
+    }
+
 } 
