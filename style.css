@@ -1,10 +1,15 @@
 
-
 body{
     background-color: #F8E4E4;
     margin: 0px;   
 }
 
+.fullScreen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
 .navBar{
     display: flex;
     flex-direction: row;
@@ -61,6 +66,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-bottom: 80px;
+    width: 100%;
 }
 
 .tag{
@@ -76,6 +82,7 @@ body{
     font-size: 20px;
     float: left; 
     stroke: none;
+    float: left;
 }
 
 
@@ -87,6 +94,7 @@ body{
     margin-right: 50px;
     margin-top: 25px;
     margin-bottom: 25px; 
+   
 }
 
 .card{
@@ -135,6 +143,12 @@ body{
 
 .buttonArea{
     display: flex;
+    justify-content: center;
+}
+
+.card-deck{
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -191,6 +205,7 @@ h3{
 
 .me{
     height: 620px;
+    width: 100%;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
@@ -229,6 +244,7 @@ h3{
 
 .info{
     height: 460px;
+    width: 100%;
     background-color: #BDA0A1;
     display: flex;
     justify-content: center;
@@ -304,6 +320,10 @@ h3{
 
 
 
+
+
+
+
 @media only screen and (max-width: 780px){
     .tabs{
         width: 250px;
@@ -364,5 +384,213 @@ h3{
         width: 355px;
     }
 
-
+    .card-deck{
+        flex-direction: column;
+    }
 } 
+
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        .tabs{
+            width: 250px;
+            margin-right: 50px;
+        }
+        
+        .logo{
+            margin-left: 50px;
+        }
+    
+        .cards{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .card{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+    
+        .hello{
+            font-size: 35px;
+            line-height: 50px;
+        }
+    
+        .seeMore{
+            width: 375px;
+            margin-top: 40px;
+        }
+    
+    
+        .me{
+            height: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .aboutMe{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 355px;
+        }
+    
+        .photo{
+            width: 355px;
+            height: 270px;
+        }
+    
+        .whoIam{
+            text-align: center;
+        }
+    
+        #whoIam{
+            width: 355px;
+        }
+    
+        .card-deck{
+            flex-direction: column;
+        }
+    }
+
+    @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+        .tabs{
+            width: 250px;
+            margin-right: 50px;
+        }
+        
+        .logo{
+            margin-left: 50px;
+        }
+    
+        .cards{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .card{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+    
+        .hello{
+            font-size: 35px;
+            line-height: 50px;
+        }
+    
+        .seeMore{
+            width: 375px;
+            margin-top: 40px;
+        }
+    
+    
+        .me{
+            height: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .aboutMe{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 355px;
+        }
+    
+        .photo{
+            width: 355px;
+            height: 270px;
+        }
+    
+        .whoIam{
+            text-align: center;
+        }
+    
+        #whoIam{
+            width: 355px;
+        }
+    
+        .card-deck{
+            flex-direction: column;
+        }
+    }  
+
+    @media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+
+        .tabs{
+            width: 250px;
+            margin-right: 50px;
+        }
+        
+        .logo{
+            margin-left: 50px;
+        }
+    
+        .cards{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .card{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+    
+        .hello{
+            font-size: 35px;
+            line-height: 50px;
+        }
+    
+        .seeMore{
+            width: 375px;
+            margin-top: 40px;
+        }
+    
+    
+        .me{
+            height: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .aboutMe{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 355px;
+        }
+    
+        .photo{
+            width: 355px;
+            height: 270px;
+        }
+    
+        .whoIam{
+            text-align: center;
+        }
+    
+        #whoIam{
+            width: 355px;
+        }
+    
+        .card-deck{
+            flex-direction: column;
+        }
+    } */
