@@ -1,16 +1,18 @@
+/*@media only screen and (min-width: 781px){*/
 
-body{
-    background-color: #F8E4E4;
+body{  
     margin: 0px;   
 }
 
 .fullScreen{
+    background-color: #F8E4E4;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
 }
+
 .navBar{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,8 +21,7 @@ body{
     margin: 0px;
     align-items: center;
     position: fixed;
-    top: 0;
-    width: 100%;
+    top: 0;  
 }
 
 .logo{
@@ -32,10 +33,10 @@ body{
 }
 
 .tabs{
+    width: 375px;
     float: right;
     margin-right: 80px;
     align-items: center;
-    width: 375px;
     justify-content: space-between;
     height: 78px;
     display: flex;
@@ -49,6 +50,9 @@ body{
 }
 
 .hello{
+    height: 400;
+    width: 88%;
+    margin-top: 78px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,10 +60,6 @@ body{
     font-size: 55px;
     line-height: 80px;
     font-family: 'Righteous', cursive;
-    height: 400;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 78px;
 }
 
 .section{
@@ -70,7 +70,7 @@ body{
 }
 
 .tag{
-    background-color:#F91559;
+    background-color:#BDA0A1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,53 +81,52 @@ body{
     font-family: 'Righteous', cursive;
     font-size: 20px;
     float: left; 
-    stroke: none;
-    float: left;
+    stroke: none; 
 }
 
 
-.cards{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 25px;
-    margin-bottom: 25px; 
-   
-}
-
-.card{
-    height: 420px;
-    width: 375px;
-    background-color: white;
-    margin-right: 20px;
-    margin-left: 20px;
+.threeCards{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 25px; 
+    width: 100%;
+}
+
+.cards{
+    width: 88%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card{
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 .cardImage{
-    width: 335px;
-    height: 230px;
-    margin: 20px;
+    width: 90%;
+    height: auto;
+    margin-top: 5%;
 }
 
-#ux1{
-    width: 305px;
-    height: 230px;
-}
 
 .cardName{
     color: black;
-    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     text-align: left;
-    width: 355px;
-    padding-left: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;  
+    width: 90%;
+    margin-top: 25px;
+    margin-bottom: 10px;  
 }
 
 .cardDescription{
@@ -136,27 +135,16 @@ body{
     font-size: 16px;
     line-height: 25px;
     text-align: left;
-    width: 335px;
+    width: 90%;
     margin: 0px;
     font-weight: 300;
+    margin-bottom: 25px;
 }
 
-.buttonArea{
-    display: flex;
-    justify-content: center;
+.button{
+    width: 88%;
+    justify-content: end;
 }
-
-.card-deck{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.area{
-    width: 1205px;
-}
-
-
 .seeMore{
     width: 120;
     height: 40;
@@ -203,26 +191,36 @@ h3{
     font-family: 'Righteous', cursive;
 }
 
+
 .me{
-    height: 620px;
     width: 100%;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 600px;
+}
+
+
+.aboutMe{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+
+.photoMe{
+    /*height: auto;*/
+    width: 100%;
+    /*margin-right: 120px;*/
 }
 
 .photo{
-    height: 360px;
-    width: 475px;
-    margin-right: 120px;
-}
-
-.aboutMe{
-    height: 360px;
-    width: 1205px;
-    display: flex;
-    flex-direction: row;
+    width: 90%;
+    height: auto;
 }
 
 .whoIam{
@@ -234,12 +232,13 @@ h3{
 }
 
 #whoIam{
-    width: 475px;
-    font-size: 20px;
+    width: 100%;
+    font-size: 18px;
     color: black;
     font-family: 'Roboto', sans-serif;
-    line-height: 34px;
+    line-height: 30px;
     text-align: justify;
+    font-weight: 300;
 }
 
 .info{
@@ -322,275 +321,349 @@ h3{
 
 
 
-
-
 @media only screen and (max-width: 780px){
-    .tabs{
-        width: 250px;
-        margin-right: 50px;
-    }
-    
-    .logo{
-        margin-left: 50px;
-    }
-
     .cards{
-        display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
 
     .card{
-        margin-top: 20px;
-        margin-left: 20px;
+        width: 88%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
     }
+}
 
-    .hello{
-        font-size: 35px;
-        line-height: 50px;
+/*}
+
+
+
+
+@media only screen and (max-width: 780px){
+
+
+    body{
+        margin: 0px;   
     }
-
-    .seeMore{
-        width: 375px;
-        margin-top: 40px;
-    }
-
-
-    .me{
-        height: 800px;
+    
+    .fullScreen{
+        background-color: #F8E4E4;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
+        width: 100%;
     }
-
-    .aboutMe{
+    .navBar{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 355px;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 78px;
+        background-color: #ffffff;
+        margin: 0px;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .logo{
+        float: left;
+        margin-left: 50px;
+        color: #F91559;
+        font-size: 45px;
+        font-family: 'Righteous', cursive;
+    }
+    
+    .tabs{
+        float: right;
+        margin-right: 50px;
+        align-items: center;
+        width: 250px;
+        justify-content: space-between;
+        height: 78px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .oneTab{
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: regular;
     }
 
-    .photo{
-        width: 355px;
-        height: 270px;
-    }
+    
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    line-height: 50px;
+    font-family: 'Righteous', cursive;
+    height: 400;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 78px;
+}
 
-    .whoIam{
-        text-align: center;
-    }
+.section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    width: 100%;
+}
 
-    #whoIam{
-        width: 355px;
-    }
+.tag{
+    background-color:#BDA0A1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 255px;
+    height: 52px;
+    text-align: center;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    float: left; 
+    stroke: none; 
+}
 
-    .card-deck{
-        flex-direction: column;
-    }
-} 
+
+.cards{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 25px; 
+    width: 100%;
+}
+
+
+.fullCard{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card{
+    height: 420px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+
+.cardImage{
+
+    height: 230px;
+    margin: 20px;
+}
+
+#ux1{
+    width: 305px;
+    height: 230px;
+}
+
+.cardName{
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    text-align: left;
+    width: 355px;
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;  
+}
+
+.cardDescription{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    width: 335px;
+    margin: 0px;
+    font-weight: 300;
+}
+
+
+.seeMore{
+    width: 375px;
+    height: 40;
+    border-radius: 25px;
+    border: solid 3px #F91559;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #F91559;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: medium;
+    float: right;  
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+    
+.seeMore:hover{
+    background-color: #F91559;
+    color: white;
+}
+
+.code{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+    width: 320px;
+    background-image: url("images/arrows.gif");
+    background-repeat: no-repeat;
+}
+
+h3{
+    font-size: 40px;
+    color: black;
+    font-family: 'Righteous', cursive;
+}
+
+
+.me{
+    height: 800px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.aboutMe{
+    height: 360px;
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photo{
+    height: 270px;
+    width: 355px;
+}
+
+.whoIam{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 34px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
+   
+
+#whoIam{
+    width: 355px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    line-height: 34px;
+    text-align: justify;
+}
+
+.info{
+    height: 460px;
+    width: 100%;
+    background-color: #BDA0A1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    height: 220px;
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.findOut{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialIcon{
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.linkedin{
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    margin-bottom: 6px;
+    background: transparent url("images/SVG/linkedin.svg") no-repeat;
+}
+
+.linkedin:hover{
+    background: transparent url("images/SVG/linkedinPink.svg") no-repeat;
+}
+
+.behance{
+    margin-top: 15px;
+    height: 40px;
+    width: 40px;
+    background: transparent url("images/SVG/behance.svg") no-repeat;
+}
+
+.behance:hover{
+    background: transparent url("images/SVG/behancePink.svg") no-repeat;
+}
+
+.instagram{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: transparent url("images/SVG/instagram.svg") no-repeat;
+}
+
+.instagram:hover{
+    background: transparent url("images/SVG/instaPink.svg") no-repeat;
+}
+}
+    
+   
 
 @media only screen 
     and (device-width : 414px) 
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 3) {
-        .tabs{
-            width: 250px;
-            margin-right: 50px;
-        }
-        
-        .logo{
-            margin-left: 50px;
-        }
-    
-        .cards{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .card{
-            margin-top: 20px;
-            margin-left: 20px;
-        }
-    
-        .hello{
-            font-size: 35px;
-            line-height: 50px;
-        }
-    
-        .seeMore{
-            width: 375px;
-            margin-top: 40px;
-        }
-    
-    
-        .me{
-            height: 800px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .aboutMe{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 355px;
-        }
-    
-        .photo{
-            width: 355px;
-            height: 270px;
-        }
-    
-        .whoIam{
-            text-align: center;
-        }
-    
-        #whoIam{
-            width: 355px;
-        }
-    
-        .card-deck{
-            flex-direction: column;
-        }
-    }
-
-    @media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) {
-
-        .tabs{
-            width: 250px;
-            margin-right: 50px;
-        }
-        
-        .logo{
-            margin-left: 50px;
-        }
-    
-        .cards{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .card{
-            margin-top: 20px;
-            margin-left: 20px;
-        }
-    
-        .hello{
-            font-size: 35px;
-            line-height: 50px;
-        }
-    
-        .seeMore{
-            width: 375px;
-            margin-top: 40px;
-        }
-    
-    
-        .me{
-            height: 800px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .aboutMe{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 355px;
-        }
-    
-        .photo{
-            width: 355px;
-            height: 270px;
-        }
-    
-        .whoIam{
-            text-align: center;
-        }
-    
-        #whoIam{
-            width: 355px;
-        }
-    
-        .card-deck{
-            flex-direction: column;
-        }
-    }  
-
-    @media only screen 
-    and (device-width : 414px) 
-    and (device-height : 896px) 
-    and (-webkit-device-pixel-ratio : 2) {
-
-        .tabs{
-            width: 250px;
-            margin-right: 50px;
-        }
-        
-        .logo{
-            margin-left: 50px;
-        }
-    
-        .cards{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .card{
-            margin-top: 20px;
-            margin-left: 20px;
-        }
-    
-        .hello{
-            font-size: 35px;
-            line-height: 50px;
-        }
-    
-        .seeMore{
-            width: 375px;
-            margin-top: 40px;
-        }
-    
-    
-        .me{
-            height: 800px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .aboutMe{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 355px;
-        }
-    
-        .photo{
-            width: 355px;
-            height: 270px;
-        }
-    
-        .whoIam{
-            text-align: center;
-        }
-    
-        #whoIam{
-            width: 355px;
-        }
-    
-        .card-deck{
-            flex-direction: column;
-        }
-    } */
