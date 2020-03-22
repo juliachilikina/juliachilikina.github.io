@@ -86,7 +86,6 @@ body{
     font-family: 'Righteous', cursive;
     font-size: 20px;
     float: left; 
-    stroke: none; 
 }
 
 
@@ -113,6 +112,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
 }
 
 .cardImage{
@@ -361,7 +365,7 @@ h1{
     }
     
     .tag{
-        width: 240px;
+        width: 100%;
         font-size: 18px;
     }
     
