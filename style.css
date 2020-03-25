@@ -53,10 +53,10 @@ body{
 
 
 .topnav {
-    /* overflow: hidden; */
+    /*overflow: hidden;*/
     background-color: #ffffff;
     width: 100%;
-    height: 80px;
+    height: 60px;
     position: absolute;
     z-index: 1;
     position: fixed;
@@ -65,6 +65,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: regular;
+    line-height: 60px;
   }
  
   
@@ -73,13 +74,13 @@ body{
     display: block;
     color: #000000;
     text-align: center;
-    padding: 30px 30px;
     text-decoration: none;
-    font-size: 18px;
+    padding: 0px 30px 0px 30px;
   }
   
   .topnav a:hover {
-    text-decoration: underline;
+    background-color: #F91559;
+    color: #ffffff;
   }
   
   .topnav a.active {
@@ -94,13 +95,19 @@ body{
   #logo{
     font-size: 45px;
     font-family: 'Righteous', cursive;
-    padding-top: 12px;
+    padding-top: 0px;
     color: #F91559;
 }
 
-#logo a.active{
+.topnav #logo:hover {
+    color: white;
+}
+
+.topnav #logo.active{
     text-decoration: none;
 }
+
+
 
 .hello{
     height: 420px;
@@ -386,7 +393,7 @@ h1{
 
 @media only screen and (max-width: 780px){
     
-    .logo{
+    /*.logo{
         margin-left: 40px;
         font-size: 35px;
     }
@@ -398,7 +405,104 @@ h1{
     
     .oneTab{
         font-size: 15px;
+    }*/
+
+    .topnav {
+        font-size: 16px;
+        line-height: 30px;
+      }
+
+      /*.topnav a {
+        float: left;
+        display: block;
+        color: #000000;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 16px;
+      }*/
+
+      #logo{
+        font-size: 30px;
+        line-height: 60px;
     }
+
+    .topnav a:hover {
+        background-color: transparent;
+        color: #000000;
+      }
+      
+      .topnav a.active {
+        color: #F91559;
+        text-decoration: underline;
+      }
+
+
+      .topnav #logo:hover {
+        color: #F91559;
+    }
+
+
+
+    .topnav {
+        /*overflow: hidden;*/
+        background-color: #ffffff;
+        width: 100%;
+        height: 60px;
+        position: absolute;
+        z-index: 1;
+        position: fixed;
+        top: 0;  
+        box-shadow: 0px 3px 0px 0px #F91559;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: regular;
+        line-height: 60px;
+      }
+     
+      
+      /*.topnav a {
+        float: left;
+        display: block;
+        color: #000000;
+        text-align: center;
+        text-decoration: none;
+        padding: 0px 30px 0px 30px;
+      }
+      
+      .topnav a:hover {
+        background-color: #F91559;
+        color: #ffffff;
+      }
+      
+      .topnav a.active {
+        color: #F91559;
+        text-decoration: underline;
+      }
+      
+      .topnav .icon {
+        display: none;
+      }
+    
+      #logo{
+        font-size: 45px;
+        font-family: 'Righteous', cursive;
+        padding-top: 0px;
+        color: #F91559;
+    }
+    
+    .topnav #logo:hover {
+        color: white;
+    }
+    
+    .topnav #logo.active{
+        text-decoration: none;
+    }*/
+    
+
+   
+    
+
     
     .hello{
         height: 350;
@@ -478,24 +582,23 @@ h1{
         margin-top: 40px;
         margin-bottom: 20px;
     }  
-}
 
 
 
-@media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+   .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
+      padding-top: 22px;
+      /*position: fixed;*/
     }
-  }
   
-  @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
+  
+    .topnav.responsive {position: fixed;}
     .topnav.responsive .icon {
-      position: absolute;
-      right: 20;
-      top: 20;
+      position: fixed;
+      right: 0px;
+      top: 22px;
       box-shadow: 0px 3px 0px 0px #ffffff;
     }
     .topnav.responsive a {
@@ -506,6 +609,8 @@ h1{
       padding-left: 30px;
       padding-bottom: 30px;
       background-color: #ffffff;
+      height: 100px;
+      padding: 0px 30px 0px 30px;
       box-shadow: 0px 3px 0px 0px #F91559;
     }
   }
