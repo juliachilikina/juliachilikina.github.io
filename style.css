@@ -71,7 +71,7 @@ body{
   
   .topnav a {
     float: left;
-    display: block;
+    display: inline-block;
     color: #000000;
     text-align: center;
     text-decoration: none;
@@ -407,7 +407,7 @@ h1{
         font-size: 15px;
     }*/
 
-    .topnav {
+    /*.topnav {
         font-size: 16px;
         line-height: 30px;
       }
@@ -444,8 +444,8 @@ h1{
 
 
 
-    .topnav {
-        /*overflow: hidden;*/
+    /*.topnav {
+        /*overflow: hidden;
         background-color: #ffffff;
         width: 100%;
         height: 60px;
@@ -458,7 +458,7 @@ h1{
         font-size: 18px;
         font-weight: regular;
         line-height: 60px;
-      }
+      }*/
      
       
       /*.topnav a {
@@ -594,26 +594,28 @@ h1{
     }
   
   
-    .topnav.responsive {position: fixed;}
+    .topnav.responsive {
+        position: fixed;
+        
+    }
     .topnav.responsive .icon {
       position: fixed;
       right: 0px;
-      top: 22px;
-      box-shadow: 0px 3px 0px 0px #ffffff;
+      top: 0px;
+      box-shadow: none;
     }
     .topnav.responsive a {
       float: none;
       display: block;
       text-align: left;
-      padding: 10px;
-      padding-left: 30px;
-      padding-bottom: 30px;
       background-color: #ffffff;
-      height: 100px;
-      padding: 0px 30px 0px 30px;
-      box-shadow: 0px 3px 0px 0px #F91559;
+      height: 80px;
+      line-height: 80px;
+      box-shadow: 0px 3px 0px 0px #ffffff;
     }
-  }
+  
+    .topnav.responsive #contact {
+  box-shadow: 0px 3px 0px 0px #F91559;}
 
 
 
