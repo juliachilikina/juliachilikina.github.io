@@ -9,13 +9,89 @@ body{
     align-items: center;
 }
 
-
 a{
     text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+h1{
+    text-align: center;
+    font-size: 55px;
+    line-height: 85px;
+    font-family: 'Righteous', cursive;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 34px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-weight: 200;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 34px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    margin: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 200;
+}
+
+h4{
+    text-align: center;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    float: left; 
+    font-weight: 300;
+}
+
+h5{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    width: 90%;
+    margin-top: 25px;
+    margin-bottom: 10px; 
+    font-weight: 500;
+}
+
+h6{
+    font-size: 22px;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-weight: 200;
+    margin: 0px;
+    margin-bottom: 10px; 
+}
+
+p{
+    font-size: 18px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    text-align: justify;
+    font-weight: 300;
+    margin: 0px;
+}
+
+#italic{
+    font-size: 25px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    line-height: 42px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0px;
+}
+
 
 .topnav {
     /*overflow: hidden;*/
@@ -32,7 +108,6 @@ a{
     font-weight: regular;
     line-height: 60px;
   }
- 
   
   .topnav a {
     float: left;
@@ -72,8 +147,6 @@ a{
     text-decoration: none;
 }
 
-
-
 .hello{
     height: 450px;
     width: 88%;
@@ -81,10 +154,6 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    font-size: 55px;
-    line-height: 85px;
-    font-family: 'Righteous', cursive;
 }
 
 .section{
@@ -96,27 +165,20 @@ a{
 }
 
 .tag{
-    background-color:#F91559;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 255px;
     height: 52px;
-    text-align: center;
-    color: white;
-    font-family: 'Righteous', cursive;
-    font-size: 20px;
-    float: left; 
+    background-color:#F91559;
 }
-
 
 .threeCards{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 40px;
-    margin-bottom: 25px; 
+    margin-bottom: 40px;
     width: 100%;
 }
 
@@ -146,30 +208,13 @@ a{
     margin-top: 5%;
 }
 
-
-.cardName{
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-align: left;
-    width: 90%;
-    margin-top: 25px;
-    margin-bottom: 10px;  
-}
-
 .cardDescription{
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: left;
     width: 90%;
     margin: 0px;
-    font-weight: 300;
     margin-bottom: 25px;
 }
 
-.button{
+/*.button{
     width: 88%;
     justify-content: end;
     display: none;
@@ -194,13 +239,18 @@ a{
 .seeMore:hover{
     background-color: #F91559;
     color: white;
-}
+}*/
 
 .code{
     height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#thisSite{
+    margin: 0px;
+    font-size: 40px;
 }
 
 .arrows{
@@ -213,14 +263,7 @@ a{
     background-repeat: no-repeat;
 }
 
-h3{
-    font-size: 40px;
-    color: black;
-    font-family: 'Righteous', cursive;
-}
-
-
-.me{
+.halfImage{
     width: 100%;
     background-color: #ffffff;
     display: flex;
@@ -230,58 +273,48 @@ h3{
     padding-bottom: 70px;
 }
 
-
-.aboutMe{
+.leftImage{
     width: 88%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-
-.photoMe{
+.rightImage{
+    width: 88%;
     display: flex;
-    align-items: center;
-    width: 50%;
-   
-    height: auto;
-    
+    flex-direction: row;
+    justify-content: center;
 }
 
-.photo{
+#caseSection{
+    width: 80%;
+    padding-top: 120px;
+    padding-bottom: 0px;
+}
+
+.text{
+    width: 50%;
+    float: left;   
+}
+
+.image{
+    width: 50%;
+    height: auto;    
+}
+
+#imageLeft{
     width: 90%;
     height: auto;
     float: left;
 }
 
-.whoIam{
-    width: 50%;
-    float: left;
-   
+#imageRight{
+    width: 90%;
+    height: auto;
+    float: right;
 }
 
-h1{
-    margin-top: 20px;
-    margin-bottom: 40px;
-    font-size: 34px;
-    color: black;
-    font-family: 'Righteous', cursive;
-}
-
-#whoIam{
-    width: 100%;
-}
-
-p{
-    font-size: 18px;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    line-height: 30px;
-    text-align: justify;
-    font-weight: 300;
-    margin: 0px;
-
-}
 
 .info{
     height: 460px;
@@ -324,9 +357,7 @@ p{
     justify-content: center;
 }
 
-
 .linkedin{
-    display: inline-block;
     height: 34px;
     width: 34px;
     margin-bottom: 6px;
@@ -349,7 +380,6 @@ p{
 }
 
 .instagram{
-    display: inline-block;
     height: 40px;
     width: 40px;
     background: transparent url("images/SVG/instagram.svg") no-repeat;
@@ -368,7 +398,6 @@ p{
 
 .intro{
     width: 100%;
-    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -380,32 +409,7 @@ p{
 .caseName{
     width: 80%;
     float: left;
-}
-
-h2{
-    margin: 0px;
-    margin-bottom: 20px;
-    font-size: 34px;
-    color: black;
-    font-family: 'Righteous', cursive;
-}
-
-h3{
-    margin: 0px;
-    margin-bottom: 50px;
-    font-size: 25px;
-    color: black;
-    font-family: 'Righteous', cursive;
-}
-
-h4{
-    margin: 0px;
-    padding-top: 2px;
-    margin-bottom: 40px;
-    font-size: 20px;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-
+    margin-bottom: 60px;
 }
 
 .description{
@@ -414,11 +418,12 @@ h4{
     flex-direction: row;
 }
 
-#aboutProject{
+.aboutProject{
     width: 65%;
 }
 
-#projectFacts{
+.projectFacts{
+    width: 35%;
     padding-left: 12%;
     display: flex;
     flex-direction: column;
@@ -432,53 +437,51 @@ h4{
 
 #factName{
     width: 35%;
-    margin-bottom: -20px;
 }
 
 #factInfo{
-    width: 60%;
+    width: 65%;
     text-align: left;
-    margin-bottom: 20px;
+    margin-left: 5%;
 }
 
 .cover{
     width: 100%;
 }
 
-#cover{
+.colorBG{
     width: 100%;
-    height: auto;
-}
-
-.halfText{
-    width: 100%;
-    background-color: #ffffff;
+    margin-top: 120px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding-top: 180px;
-    padding-bottom: 70px;
-
+    justify-content: center;
 }
 
-.caseNameSingle{
-    width: 80%;
-    float: left;
-    margin-bottom: 40px;
+#beige{
+    background-color: #fdf8f4;
 }
 
-#aboutProjectHalf{
-    width: 45%;
+.twoParagraphs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-#projectImage{
-    padding-left: 10%;
-    padding-right: 10%;
+.paragraph{
     width: 50%;
-    height: 200px;
-    width: auto;
+    padding-right: 10%;
 }
+
+#persona{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
 
 
 
