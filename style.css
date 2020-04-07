@@ -482,6 +482,23 @@ p{
     margin-top: 80px;
 }
 
+#wideParagraph{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.threeImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+
+}
+
+#image{
+    width: 30%;
+    height: auto;
+    margin-bottom: 80px;
+}
 
 
 
