@@ -147,7 +147,7 @@ p{
 }
 
 .hello{
-    height: 450px;
+    height: 420px;
     width: 88%;
     margin-top: 78px;
     display: flex;
@@ -158,8 +158,8 @@ p{
 .section{
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     width: 100%;
 }
 
@@ -170,6 +170,7 @@ p{
     width: 255px;
     height: 52px;
     background-color:#F91559;
+    margin-bottom: 80px;
 }
 
 .UXprojects{
@@ -183,24 +184,28 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
     width: 100%;
+    margin-bottom: 60px;
 }
 
 .largeCard{
     width: 88%;
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
+}
+
+#lastUXcard{
+    margin-bottom: 0px;
 }
 
 .title{
     width: 30%;
     display: flex;
     flex-direction: column;
-    padding-right: 10%;
+    padding-right: 5%;
+    padding-top: 80px;
+    padding-left: 5%;
 }
 
 #title:hover{
@@ -273,10 +278,14 @@ p{
 }
 
 .code{
-    height: 450px;
+    height: 360px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#codeTag{
+    margin-bottom: 40px;
 }
 
 #thisSite{
