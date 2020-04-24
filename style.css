@@ -11,7 +11,6 @@ body{
 
 a{
     text-decoration: none;
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -173,6 +172,13 @@ p{
     background-color:#F91559;
 }
 
+.UXprojects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .threeCards{
     display: flex;
     align-items: center;
@@ -180,6 +186,39 @@ p{
     margin-top: 40px;
     margin-bottom: 40px;
     width: 100%;
+}
+
+.largeCard{
+    width: 88%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.title{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+}
+
+#title:hover{
+    color: #F91559;
+}
+
+.imageUX{
+    width: 70%;
+}
+
+#imageUX{
+    width: 100%;
+    height: auto;
+}
+
+#imageUX:hover{
+    transform: scale(1.02);
+    transition: 0.2s ease-in-out;
 }
 
 .cards{
@@ -214,32 +253,24 @@ p{
     margin-bottom: 25px;
 }
 
-/*.button{
-    width: 88%;
-    justify-content: end;
-    display: none;
-}
 .seeMore{
-    width: 120;
+    width: 130px;
     height: 40;
     border-radius: 25px;
-    border: solid 3px #F91559;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: solid 2px #F91559;
     text-align: center;
     color: #F91559;
     font-size: 18px;
+    line-height: 38px;
     font-family: 'Roboto', sans-serif;
     font-weight: medium;
-    float: right;  
     margin-top: 40px;
 }
 
 .seeMore:hover{
     background-color: #F91559;
     color: white;
-}*/
+}
 
 .code{
     height: 450px;
@@ -269,8 +300,8 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .leftImage{
@@ -287,11 +318,6 @@ p{
     justify-content: center;
 }
 
-#caseSection{
-    width: 80%;
-    padding-top: 120px;
-    padding-bottom: 0px;
-}
 
 .text{
     width: 50%;
@@ -317,27 +343,26 @@ p{
 
 
 .info{
-    height: 460px;
+    height: 200px;
     width: 100%;
-    background-color: #BDA0A1;
+    background-color: #Ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #info{
-    height: 220px;
-    width: 375px;
+    height: 80px;
+    width: 320px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.findOut{
-    font-size: 35px;
+#findOut{
+    font-size: 30px;
     text-align: center;
-    color: white;
-    font-family: 'Righteous', cursive;
+    color: #F91559;
 }
 
 .social{
@@ -348,9 +373,10 @@ p{
 }
 
 .socialIcon{
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
     background-color: white;
+    border: solid 2px #F91559;
     border-radius: 40px;
     display: flex;
     align-items: center;
@@ -358,9 +384,9 @@ p{
 }
 
 .linkedin{
-    height: 34px;
-    width: 34px;
-    margin-bottom: 6px;
+    height: 25px;
+    width: 25px;
+    margin-bottom: 5px;
     background: transparent url("images/SVG/linkedin.svg") no-repeat;
 }
 
@@ -369,9 +395,9 @@ p{
 }
 
 .behance{
-    margin-top: 15px;
-    height: 40px;
-    width: 40px;
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
     background: transparent url("images/SVG/behance.svg") no-repeat;
 }
 
@@ -380,8 +406,8 @@ p{
 }
 
 .instagram{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     background: transparent url("images/SVG/instagram.svg") no-repeat;
 }
 
@@ -396,6 +422,12 @@ p{
     background-color: #ffffff;
 }
 
+#caseSection{
+    width: 80%;
+    padding-top: 120px;
+    padding-bottom: 0px;
+}
+
 .intro{
     width: 100%;
     display: flex;
@@ -403,7 +435,7 @@ p{
     justify-content: center;
     align-items: center;
     padding-top: 180px;
-    padding-bottom: 70px;
+    padding-bottom: 80px;
 }
 
 .caseName{
@@ -483,20 +515,55 @@ p{
 }
 
 #wideParagraph{
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 10px;
 }
 
 .threeImages{
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between
-
+    justify-content: space-between;
+    margin-top: 80px;
 }
 
 #image{
     width: 30%;
     height: auto;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;   
+}
+
+#smallerImage{
+    width: 25%;
+    height: auto;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+#imageCaption{
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    width: 80%;
+}
+
+.gif{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gif{
+    width: 60%;
+    height: auto;
+    margin-top: 80px;
     margin-bottom: 80px;
 }
 
