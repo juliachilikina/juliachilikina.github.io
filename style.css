@@ -63,13 +63,15 @@ h5{
 }
 
 h6{
-    font-size: 22px;
+    font-size: 24px;
     color: black;
     font-family: 'Righteous', cursive;
     font-weight: 200;
     margin: 0px;
     margin-bottom: 10px; 
+    line-height: 34px;
 }
+
 
 p{
     font-size: 18px;
@@ -82,10 +84,10 @@ p{
 }
 
 #italic{
-    font-size: 25px;
+    font-size: 28px;
     color: black;
     font-family: 'Roboto', sans-serif;
-    line-height: 42px;
+    line-height: 50px;
     font-weight: 300;
     font-style: italic;
     margin: 0px;
@@ -189,7 +191,6 @@ p{
 }
 
 .largeCard{
-    width: 88%;
     display: flex;
     flex-direction: row;
     margin-bottom: 120px;
@@ -200,12 +201,11 @@ p{
 }
 
 .title{
-    width: 30%;
+    width: 28%;
     display: flex;
     flex-direction: column;
-    padding-right: 5%;
     padding-top: 80px;
-    padding-left: 5%;
+    padding-right: 8%;
 }
 
 #title:hover{
@@ -213,7 +213,7 @@ p{
 }
 
 .imageUX{
-    width: 70%;
+    width: 72%;
 }
 
 #imageUX{
@@ -227,14 +227,14 @@ p{
 }
 
 .cards{
-    width: 88%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
 }
 
 
 .card{
-    width: 31%;
+    width: 30%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -490,6 +490,7 @@ p{
     width: 100%;
 }
 
+
 .colorBG{
     width: 100%;
     margin-top: 120px;
@@ -569,11 +570,60 @@ p{
     justify-content: center;
 }
 
-#gif{
-    width: 60%;
+#center{
+    width: 70%;
     height: auto;
     margin-top: 80px;
-    margin-bottom: 80px;
+}
+
+#marginBottom{
+    margin-bottom: 100px;
+}
+
+.shadow{
+    box-shadow: 0 5px 15px rgba(8, 8, 29, 0.1);
+}
+
+.twoImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 45%;
+}
+
+#caption{
+    font-size: 16;
+    font-weight: 300;
+    line-height: 60px;
+    color: #827E7F;
+}
+
+#captionAbove{
+    font-size: 16;
+    font-weight: 300;
+    padding-left: 18%;
+    color: #827E7F;
+}
+
+#gif{
+    width: 100%;
+    height: auto;
+    
+}
+
+#gifLeft{
+    width: 100%;
+    height: auto;
+    
 }
 
 
@@ -583,7 +633,7 @@ p{
     
     
 
-      #logo{
+    #logo{
         font-size: 30px;
         line-height: 60px;
     }
@@ -591,29 +641,29 @@ p{
     .topnav a:hover {
         background-color: transparent;
         color: #000000;
-      }
+    }
       
-      .topnav a.active {
+    .topnav a.active {
         color: #F91559;
         text-decoration: underline;
-      }
+    }
 
 
-      .topnav #logo:hover {
+    .topnav #logo:hover {
         color: #F91559;
     }
 
       
-      .topnav a.active {
+    .topnav a.active {
         color: #F91559;
         text-decoration: underline;
-      }
+    }
       
-      .topnav .icon {
+    .topnav .icon {
         display: none;
-      }
+    }
     
-      #logo{
+    #logo{
         font-size: 45px;
         font-family: 'Righteous', cursive;
         padding-top: 0px;
@@ -626,19 +676,18 @@ p{
     
     .topnav #logo.active{
         text-decoration: none;
-    }*/
+    }
     
-
-   
-    
-
-    
+ 
     .hello{
         height: 350;
-        width: 92%;
+        width: 90%;
         margin-top: 90px;
         margin-bottom: 20px;
-        font-size: 45px;
+    }
+
+    h1{
+        font-size: 45;
         line-height: 70px;
     }
     
@@ -650,6 +699,20 @@ p{
     .tag{
         width: 100%;
         font-size: 18px;
+    }
+
+    .largeCard{
+        flex-direction: column;
+    }
+
+    .imageUX{
+        width: 100%;
+    }
+
+    .title{
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     
 
@@ -675,11 +738,6 @@ p{
         justify-content: center;
     }
 
-    .seeMore{
-        width: 100%;
-        height: 40;
-        margin-top: 0px;
-    }
     
     .me{
         padding-top: 60px;
