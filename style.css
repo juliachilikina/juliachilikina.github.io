@@ -546,6 +546,10 @@ p{
     background-color: #fdf8f4;
 }
 
+#grey{
+    background-color: #F5F3FA;
+}
+
 .twoParagraphs{
     display: flex;
     flex-direction: row;

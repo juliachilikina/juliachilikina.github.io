@@ -1,0 +1,646 @@
+body{
+    margin: 0px;
+}
+
+.fullScreen{
+    height: 100vh;
+    width: 100vw;
+    background-color:#FAFBFD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30;
+    font-weight: 500;
+    color: #302256;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16;
+    font-weight: 400;
+    color: #616161;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-bottom: 5px;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15;
+    font-weight: 400;
+    color: #616161;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20;
+    font-weight: 500;
+    color: #302256;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12;
+    font-weight: 300;
+    color: #ffffff; 
+    margin: 0px;
+}
+
+h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12;
+    font-weight: 300;
+    color: #302256; 
+    margin: 0px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14;
+    font-weight: 300;
+    color: #616161; 
+    padding-top: 20px;
+}
+
+b{
+    color: #302256;
+}
+
+#nextClass{
+    color: #28bf89;
+    margin-right: 10px;
+}
+
+#nextHW{
+    color: #ef7300;
+    margin-right: 10px;
+}
+
+#nextWorkshop{
+    color: #174ccf;
+    margin-right: 10px;
+}
+
+#alert{
+    color: #f0253d;
+}
+
+
+/*Topnav*/
+.topnav{
+    width: 100%;
+    min-height: 70px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(8, 8, 29, 0.08);
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 50%;
+}
+
+#logo{
+    height: 40px;
+    width: auto;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.navRight{
+    width: 50%;
+}
+
+.icons{
+    float: right;
+    margin-right: 6%;
+    width: 255px;
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.topNavImage{
+    margin-right: 40px;
+}
+
+#profile{
+    margin-left: 40px;
+}
+
+.burger{
+    width: 50%;
+    display: none;
+}
+#burger{
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+    visibility: hidden;
+}
+
+
+/*Full dash*/
+.dash{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row; 
+}
+
+
+/*side nav*/
+.sidenav{
+    height: 100%;
+    width: 116px;
+    background-color: #302256;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mydash{
+	width: 116px;
+	height: 100px;
+	background-image: url("images/dash.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mydash:hover{
+	width: 116px;
+	height: 100px;
+	background-image: url("images/dash_active.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.myclasses{
+	width: 116px;
+	height: 100px;
+	background-image: url("images/classes.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.myclasses:hover{
+	width: 116px;
+	height: 100px;
+	background-image: url("images/classes_active.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.myassignments{
+	width: 116px;
+	height: 100px;
+	background-image: url("images/assignments.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.myassignments:hover{
+	width: 116px;
+	height: 100px;
+	background-image: url("images/assignments_active.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mycareer{
+	width: 116px;
+	height: 100px;
+	background-image: url("images/career.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mycareer:hover{
+	width: 116px;
+	height: 100px;
+	background-image: url("images/career_active.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mymaterials{
+	width: 116px;
+	height: 100px;
+	background-image: url("images/materials.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mymaterials:hover{
+	width: 116px;
+	height: 100px;
+	background-image: url("images/materials_active.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.myprogress{
+	width: 116px;
+	height: 100px;
+	background-image: url("images/progress.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.myprogress:hover{
+	width: 116px;
+	height: 100px;
+	background-image: url("images/progress_active.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mygroup{
+	width: 116px;
+	height: 100px;
+	background-image: url("images/group.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mygroup:hover{
+	width: 116px;
+	height: 100px;
+	background-image: url("images/group_active.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Main info part*/
+.info{
+    width: 100%;
+    margin: 3%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome{
+    min-height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#halfLeft{
+    width: 52%;
+}
+
+#progress{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#progressBar{
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+#halfRight{
+    width: 48%;
+}
+
+.stats{
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 3px 12px rgba(8, 8, 29, 0.08);
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.stat{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#exclamation{
+    margin-right: 10px;
+}
+
+
+/*event cards*/
+.cards{
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.events{
+    width: 65%;
+    float: left;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upcoming{
+    width: 100%;
+}
+
+.eventCard{
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0 3px 12px rgba(8, 8, 29, 0.08);
+    min-height: 150px;
+    border-radius: 6px;
+}
+
+#bottom{
+    margin-bottom: 0px;
+}
+
+.text{
+    width:70%;
+    padding: 2% 8% 2% 8%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.folder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#files{
+    padding: 0px;
+    margin: 0px;
+}
+
+#status{
+    margin-top: 20px;
+}
+
+bold{
+   font-weight: 600; 
+}
+
+.buttons{
+    width: 30%;
+    padding: 20px;
+}
+
+.button{
+    width: 170px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #302256;
+    margin-top: 2%;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 38px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14;
+    font-weight: 400;
+    float: right;
+}
+
+#checkIn{
+    background-color: #28bf89;
+}
+
+#secondary{
+    background-color: #ffffff;
+    border: 1px solid #302256;
+    color: #302256;
+}
+
+.calendar{
+    width: 35%;
+    height: auto;
+    float: right;
+    background-color: #ffffff;
+    box-shadow: 0 3px 12px rgba(8, 8, 29, 0.08);
+    border-radius: 6px;
+}
+
+#calendar{
+    width: 360px;
+    height: 480px;
+	background-image: url("images/calendar.png");
+	background-repeat: no-repeat;
+	background-size: cover;  
+}
+
+
+/*breakpoints*/
+
+@media only screen and (max-width: 1200px){
+
+    .topnav{
+        position: fixed;
+    }
+
+    .dash{
+        height: 100vh;
+    }
+
+    .sidenav{
+        position: fixed;
+        margin-top: 70px;
+    }
+
+    .info{
+        width: 100%;
+        margin: 100px 3% 2% 140px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome{
+        min-height: 160px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #halfLeft{
+        width: 100%;
+    }
+    
+    
+    #halfRight{
+        width: 100%;
+    }
+
+    .cards{
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .events{
+        width: 100%;
+        float: left;
+        padding-right: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bottom{
+        margin-bottom: 5%;
+    }
+
+    .calendar{
+        width: 100%;
+        height: auto;
+        float: right;
+        background-color: #FAFBFD;
+        box-shadow: 0 3px 12px rgba(8, 8, 29, 0.08);
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #calendar{
+        width: 100%;
+        height: 600px;
+        background-image: url("images/calendar_large.png");
+        background-repeat: no-repeat;
+        background-size: cover;    
+    }
+
+}
+
+@media only screen and (max-width: 780px){
+
+    .topNavImage{
+        margin-right: 40px;
+        visibility: hidden;
+    }
+    
+    #profile{
+        margin-left: 40px;
+        visibility: hidden;
+    }
+    
+    .navright{
+        display: none;
+    }
+
+    .burger{
+        width: 50%;
+        display: inline-block;
+    }
+    #burger{
+        float: right;
+        margin-right: 40px;
+        margin-top: 20px;
+        visibility: visible;
+    }
+
+    .sidenav{
+       visibility: hidden;
+    }
+    
+    .info{
+        width: 100%;
+        margin: 100px 5% 5% 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eventCard{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .text{
+        width:90%;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        display: inline-block;
+    }
+
+    p{
+        margin-top: 0px;
+    }
+    
+    .buttons{
+        width: 90%;
+        padding: 10px;
+    }
+    
+    .button{
+        width: 100%;
+        height: 42px;
+    }
+
+    #calendar{
+        width: 100%;
+        height: 450px;
+        background-image: url("images/calendar.png");
+        background-repeat: no-repeat;
+        background-size: cover;    
+    }
+    
+}
+
+@media only screen and (max-width: 570px){
+    #halfRight{
+        display: none;
+    }
+
+    #progress{
+        flex-direction: column;
+        display: inline;
+    }
+
+    #progressBar{
+        margin-left: 0px;
+    }
+}
