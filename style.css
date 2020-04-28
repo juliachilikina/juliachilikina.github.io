@@ -53,7 +53,7 @@ h4{
 
 h5{
     color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     text-align: left;
     width: 90%;
@@ -76,9 +76,9 @@ h6{
 p{
     font-size: 18px;
     color: black;
-    font-family: 'Roboto', sans-serif;
-    line-height: 30px;
-    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    line-height: 28px;
+    /*text-align: justify;*/
     font-weight: 300;
     margin: 0px;
 }
@@ -86,7 +86,7 @@ p{
 #italic{
     font-size: 28px;
     color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     line-height: 50px;
     font-weight: 300;
     font-style: italic;
@@ -104,7 +104,7 @@ p{
     position: fixed;
     top: 0;  
     box-shadow: 0px 3px 0px 0px #F91559;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 17px;
     font-weight: regular;
     line-height: 60px;
@@ -267,7 +267,7 @@ p{
     color: #F91559;
     font-size: 18px;
     line-height: 38px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;;
     font-weight: medium;
     margin-top: 40px;
 }
@@ -276,6 +276,7 @@ p{
     background-color: #F91559;
     color: white;
 }
+
 
 .code{
     height: 360px;
@@ -288,20 +289,20 @@ p{
     margin-bottom: 40px;
 }
 
-#thisSite{
-    margin: 0px;
-    font-size: 40px;
-}
 
-.arrows{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 240px;
-    width: 320px;
-    background-image: url("images/arrows.gif");
-    background-repeat: no-repeat;
+.container{
+  position: relative;
+  text-align: center;
+  color: white;
 }
+ 
+
+#thisSite{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 .halfImage{
     width: 100%;
@@ -331,6 +332,54 @@ p{
 .text{
     width: 50%;
     float: left;   
+    display: flex;
+    flex-direction: column;
+}
+
+.twoButtons{
+    display: flex;
+    flex-direction: row;
+}
+
+#buttonPink{
+    width: 130px;
+    height: 40;
+    border-radius: 25px;
+    border: solid 2px #F91559;
+    text-align: center;
+    color: #F91559;
+    font-size: 18px;
+    line-height: 38px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#buttonLong{
+    width: 130px;
+    height: 40;
+    border-radius: 25px;
+    border: solid 2px #000000;
+    text-align: center;
+    color: #000000;
+    font-size: 17px;
+    line-height: 38px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#buttonPink:hover{
+    background-color: #F91559;
+    color: #ffffff;
+}
+
+#buttonLong:hover{
+    background-color: #000000;
+    border: solid 2px #000000;
+    color: #ffffff;
+    font-weight: 500;
 }
 
 .image{
@@ -354,14 +403,13 @@ p{
 .info{
     height: 200px;
     width: 100%;
-    background-color: #Ffffff;
+    background-color: #F8E4E4;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #info{
-    height: 80px;
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -385,7 +433,6 @@ p{
     height: 60px;
     width: 60px;
     background-color: white;
-    border: solid 2px #F91559;
     border-radius: 40px;
     display: flex;
     align-items: center;
@@ -629,6 +676,19 @@ p{
 
 
 
+@media only screen and (max-width: 1000px){
+
+    .title{
+        padding-top: 30px;
+    }
+
+    .seeMore{
+        margin-top: 20px;
+    }
+
+
+}
+
 @media only screen and (max-width: 780px){
     
     
@@ -687,7 +747,7 @@ p{
     }
 
     h1{
-        font-size: 45;
+        font-size: 52;
         line-height: 70px;
     }
     
@@ -700,76 +760,96 @@ p{
         width: 100%;
         font-size: 18px;
     }
-
+    
+    
+   
+    
     .largeCard{
+        width: 100%;
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
     }
-
+    
+    .title{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    
+    #title:hover{
+        color: #F91559;
+    }
+    
     .imageUX{
         width: 100%;
     }
-
-    .title{
-        width: 100%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
     
-
-    .cards{
-        width: 92%;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    
-    .card{
-        width: 100%;
-        margin-bottom: 40px;
-    }
-
-    .card:hover{
-        transform: scale(1);
-    }
-    
-    
-    .button{
-        width: 60%;
-        justify-content: center;
-    }
-
-    
-    .me{
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    
-    
-    .aboutMe{
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    
-    .photoMe{
-        width: 100%;   
-    }
-    
-    .photo{
+    #imageUX{
         width: 100%;
         height: auto;
     }
     
-    .whoIam{
-        width: 100%;
+    #lastUXcard{
+        margin-bottom: 60px;
+    }
+
+    .cards{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
     }
     
-    h1{
+    .card{
+        width: 32%;
+    }
+    
+    .cardImage{
+        width: 94%;
+        height: auto;
+        margin-top: 3%;
+    }
+    
+    .cardDescription{
+        width: 90%;
+        margin: 0px;
+        margin-bottom: 25px;
+    }
+
+    
+    .leftImage{
+        width: 88%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image{
+        width: 80%;
+        height: auto;    
+    }
+    
+    #imageLeft{
+        width: 100%;
+        height: auto;
+    }
+
+    .text{
+        width: 80%;
+        float: left;   
+        display: flex;
+        flex-direction: column;
         margin-top: 40px;
-        margin-bottom: 20px;
-    }  
+    }
+
+
+
+
+
+    
+    
 
 
 
