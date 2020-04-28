@@ -691,7 +691,41 @@ p{
 
 @media only screen and (max-width: 780px){
     
-    
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      padding-top: 22px;
+      color: #F91559;
+      /*position: fixed;*/
+    }
+  
+  
+    .topnav.responsive {
+        position: fixed;
+        
+    }
+    .topnav.responsive .icon {
+      position: fixed;
+      right: 0px;
+      top: 0px;
+      box-shadow: none;
+      
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      background-color: #ffffff;
+      height: 80px;
+      line-height: 80px;
+      box-shadow: 0px 3px 0px 0px #ffffff;
+    }
+  
+    .topnav.responsive #contact {
+  box-shadow: 0px 3px 0px 0px #F91559;}
+
+  
 
     #logo{
         font-size: 30px;
@@ -761,8 +795,6 @@ p{
         font-size: 18px;
     }
     
-    
-   
     
     .largeCard{
         width: 100%;
@@ -845,47 +877,6 @@ p{
     }
 
 
-
-
-
-    
-    
-
-
-
-   .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-      padding-top: 22px;
-      color: #F91559;
-      /*position: fixed;*/
-    }
-  
-  
-    .topnav.responsive {
-        position: fixed;
-        
-    }
-    .topnav.responsive .icon {
-      position: fixed;
-      right: 0px;
-      top: 0px;
-      box-shadow: none;
-      
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-      background-color: #ffffff;
-      height: 80px;
-      line-height: 80px;
-      box-shadow: 0px 3px 0px 0px #ffffff;
-    }
-  
-    .topnav.responsive #contact {
-  box-shadow: 0px 3px 0px 0px #F91559;}
 
 
 
