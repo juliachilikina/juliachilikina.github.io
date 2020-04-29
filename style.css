@@ -547,20 +547,21 @@ p{
 }
 
 #grey{
-    background-color: #F5F3FA;
+    background-color: #F5f5f5;
 }
 
 .twoParagraphs{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
 .paragraph{
-    width: 50%;
-    padding-right: 10%;
+    width: 42%;
+    
 }
 
 #persona{
