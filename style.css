@@ -678,7 +678,8 @@ p{
 #caption{
     font-size: 16;
     font-weight: 300;
-    line-height: 60px;
+    line-height: 25px;
+    margin-top: 10px;
     color: #827E7F;
 }
 
