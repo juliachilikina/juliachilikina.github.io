@@ -414,6 +414,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 .social{
@@ -606,7 +607,6 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 80px;
 }
 
 #image{
@@ -673,6 +673,11 @@ p{
     flex-direction: column;
     justify-content: flex-start;
     width: 45%;
+}
+
+#textcenter{
+    text-align: center;
+    font-size: 15px;
 }
 
 #caption{
