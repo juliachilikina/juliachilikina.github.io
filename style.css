@@ -714,7 +714,25 @@ p{
 #gifLeft{
     width: 100%;
     height: auto;
-    
+}
+
+.theEndCenter{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#theEndGif{
+    width: 40%;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+#verticalCenter{
+    align-items: center;
+    justify-content: center;
 }
 
 
