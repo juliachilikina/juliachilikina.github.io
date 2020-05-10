@@ -770,6 +770,24 @@ p{
         margin-bottom: 25px;
     }
 
+    .description{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .aboutProject{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    
+    .projectFacts{
+        width: 100%;
+        padding-left: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 
@@ -899,7 +917,23 @@ p{
         margin-bottom: 30px;
     }
 
-    
+
+
+    #caseSection{
+        width: 80%;
+        margin-top: 80px;
+    }
+
+    .halfImage{
+        width: 100%;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 80px;
+    }
+
     .leftImage{
         width: 88%;
         display: flex;
@@ -911,11 +945,98 @@ p{
         width: 80%;
         height: auto;    
     }
+
+    .rightImage{
+        width: 88%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #caseFullWidth{
+        width: 100%;
+    }
     
     #imageLeft{
         width: 100%;
         height: auto;
     }
+
+    #imageRight{
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-top: 40px;
+    }
+
+    #captionAbove{
+        padding-left: 0px;
+    }
+
+    .twoParagraphs{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .paragraph{
+        width: 100%;
+        padding-bottom: 80px;
+    }
+
+    #noPadding{
+        padding-bottom: 20px;
+    }
+
+    .threeImages{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #smallerImage{
+        width: 100%;
+        height: auto;
+        margin-bottom: 80px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    #image{
+        width: 100%;
+        height: auto;
+        margin-bottom: 80px;
+        display: flex;
+        flex-direction: column;   
+    }
+
+    #center{
+        width: 100%;
+    }
+
+    .twoImages{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .caption{
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+
+
 
     .text{
         width: 80%;
@@ -988,6 +1109,11 @@ p{
 
     #title{
         text-align: center;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 32px;
     }
 
     #textCentered{
