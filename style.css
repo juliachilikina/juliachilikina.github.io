@@ -701,6 +701,7 @@ p{
 #captionAbove{
     font-size: 16;
     font-weight: 300;
+    margin-top: 10px;
     padding-left: 10%;
     color: #827E7F;
 }
@@ -727,7 +728,7 @@ p{
 #theEndGif{
     width: 40%;
     margin-top: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 #verticalCenter{
@@ -859,6 +860,13 @@ p{
        line-height: 30px;
     }
 
+    #italic{
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+
+
 
     #textCentered{
         text-align: center;
@@ -953,6 +961,12 @@ p{
         justify-content: center;
     }
 
+    #persona{
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+    }
+
     #caseFullWidth{
         width: 100%;
     }
@@ -1012,12 +1026,14 @@ p{
         width: 100%;
         height: auto;
         margin-bottom: 80px;
+        margin-top: 20px;
         display: flex;
         flex-direction: column;   
     }
 
     #center{
         width: 100%;
+        margin-top: 20px;
     }
 
     .twoImages{
@@ -1034,12 +1050,29 @@ p{
         padding-bottom: 30px;
     }
 
+    #wideParagraph{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
 
+    #mobileMovie{
+        height: 350px;
+    }
+
+    #gifLeft{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .marginTop{
+        margin-top: 30px;
+    }
 
 
 
     .text{
-        width: 80%;
+        width: 100%;
         float: left;   
         display: flex;
         flex-direction: column;
@@ -1106,14 +1139,8 @@ p{
         line-height: 50px;
     }
 
-
     #title{
         text-align: center;
-    }
-
-    p{
-        font-size: 20px;
-        line-height: 32px;
     }
 
     #textCentered{
@@ -1149,7 +1176,6 @@ p{
         margin-bottom: 25px;
     }
 
-
     .seeMore{
         width: 300px;
     }
@@ -1180,4 +1206,35 @@ p{
         max-width: 320px;
     }
 
+
+
+    .caseName{
+        width: 80%;
+        float: left;
+        margin-bottom: 30px;
+    }
+
+    #caseSection{
+        width: 80%;
+        margin-top: 40px;
+    }
+
+    #italic{
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    h2{
+        font-size: 30px;
+        line-height: 42px;
+        color: black;
+        font-family: 'Righteous', cursive;
+        font-weight: 200;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+    #mobileMovie{
+        height: 250px;
+    }
 
