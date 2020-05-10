@@ -974,6 +974,7 @@ p{
     #imageLeft{
         width: 100%;
         height: auto;
+        margin-top: 20px;
     }
 
     #imageRight{
@@ -1178,6 +1179,10 @@ p{
 
     .seeMore{
         width: 300px;
+    }
+
+    .coding{
+        width: 80%;
     }
 
     .twoButtons{
