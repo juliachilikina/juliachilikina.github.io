@@ -580,6 +580,24 @@ p{
     background-color: #F6f6f6;
 }
 
+#darkGrey{
+    background-color: #44454e;
+}
+
+#white{
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.pink{
+    background-color: #ed9ac2; 
+    width: 100%;  
+    margin: 0px;
+    padding: 0px 30px 0px 30px;
+    line-height: 120px;
+
+}
+
 .twoParagraphs{
     display: flex;
     flex-direction: row;
@@ -734,6 +752,15 @@ p{
 #verticalCenter{
     align-items: center;
     justify-content: center;
+}
+
+
+#weekndr{
+    color: #ed9ac2;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600;
+    text-align: center;
 }
 
 
@@ -1181,9 +1208,6 @@ p{
         width: 300px;
     }
 
-    .coding{
-        width: 80%;
-    }
 
     .twoButtons{
         display: flex;
@@ -1212,6 +1236,9 @@ p{
     }
 
 
+    .sectionMargin{
+        margin-top: 40px;
+    }
 
     .caseName{
         width: 80%;
