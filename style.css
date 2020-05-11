@@ -810,7 +810,7 @@ p{
     height: 400px;
     width: 100%;
     background-image: linear-gradient(to bottom right, #FAAD19, #F27252);
-    animation: gradientChange 8s infinite;
+    animation: gradientChange 6s infinite;
    
 }
 
