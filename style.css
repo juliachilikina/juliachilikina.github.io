@@ -851,6 +851,18 @@ p{
 #gradient{
     height: 80%;
 }
+
+.fourImages{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oneOfFour{
+    width: 25%;
+}
  
 
 
