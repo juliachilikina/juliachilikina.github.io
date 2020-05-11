@@ -329,7 +329,7 @@ p{
     }
 
     50% {
-        transform: scale(1.7)
+        transform: scale(1.4)
     }
 
     to {
@@ -803,6 +803,55 @@ p{
     text-align: center;
 }
 
+#gradientCover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #FAAD19, #F27252);
+    animation: gradientChange 8s infinite;
+   
+}
+
+@keyframes gradientChange {
+    0% {
+        background-image: linear-gradient(to bottom right, #FAAD19, #F27252);
+    }
+
+    15% {
+        background-image: linear-gradient(to bottom right, #EC228F, #F2734F);
+    }
+
+    30% {
+        background-image: linear-gradient(to bottom right, #FF9A9E, #FFD1FF);
+    }
+
+    45% {
+        background-image: linear-gradient(to bottom right, #FBC2EB, #A6C1EE);
+    }
+
+    60% {
+        background-image: linear-gradient(to bottom right, #8FBCF4, #98FAB0);
+    }
+
+    75% {
+        background-image: linear-gradient(to bottom right, #527DE9, #63CEE8);
+    }
+
+    90% {
+        background-image: linear-gradient(to bottom right, #FF9A9E, #FFD1FF);
+    }
+
+    100% {
+        background-image: linear-gradient(to bottom right, #FAAD19, #F27252);
+    }
+}
+
+#gradient{
+    height: 80%;
+}
+ 
 
 
 
@@ -1314,4 +1363,8 @@ p{
     #mobileMovie{
         height: 250px;
     }
+
+    #gradientCover{
+        height: 300px;
+
 
