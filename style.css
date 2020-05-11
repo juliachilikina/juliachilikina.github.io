@@ -319,6 +319,24 @@ p{
     justify-content: center;
 }
 
+.coding{
+    animation: scale 2s infinite;
+}
+
+@keyframes scale{
+    from {
+        transform: scale(1)
+    }
+
+    50% {
+        transform: scale(1.7)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
 #codeTag{
     margin-bottom: 40px;
 }
