@@ -807,7 +807,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 70vh;
     width: 100%;
     background-image: linear-gradient(to bottom right, #FAAD19, #F27252);
     animation: gradientChange 6s infinite;
