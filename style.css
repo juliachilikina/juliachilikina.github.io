@@ -723,6 +723,10 @@ p{
     box-shadow: 0 5px 15px rgba(8, 8, 29, 0.1);
 }
 
+#paddingZero{
+    padding-top: 0px;
+}
+
 .twoImages{
     display: flex;
     flex-direction: row;
@@ -1133,6 +1137,7 @@ p{
         padding-bottom: 20px;
     }
 
+
     .threeImages{
         width: 100%;
         height: auto;
@@ -1339,12 +1344,13 @@ p{
 
     .intro{
         padding-top: 80px;
-    
+    }
 
 
     .sectionMargin{
         margin-top: 40px;
     }
+        
 
     .caseName{
         width: 80%;
@@ -1378,5 +1384,15 @@ p{
 
     #gradientCover{
         height: 300px;
+    }
 
+    .fourImages{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
 
+    .oneOfFour{
+        width: 100%;
+    }
+  }
