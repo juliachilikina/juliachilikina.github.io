@@ -127,6 +127,7 @@ p{
 
 
 
+
 .topnav {
     /*overflow: hidden;*/
     background-color: #ffffff;
@@ -195,7 +196,6 @@ p{
     display: flex;
     flex-direction: column;
     margin-top: 60px;
-    margin-bottom: 60px;
     width: 100%;
 }
 
@@ -207,6 +207,7 @@ p{
     height: 52px;
     background-color:#ffffff;
     margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 .UXprojects{
