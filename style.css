@@ -53,7 +53,7 @@ h3{
 
 h4{
     text-align: center;
-    color: white;
+    color: F91559;
     font-family: 'Righteous', sans-serif;
     font-size: 20px;
     float: left; 
@@ -205,7 +205,7 @@ p{
     justify-content: center;
     width: 255px;
     height: 52px;
-    background-color:#F91559;
+    background-color:#ffffff;
     margin-bottom: 80px;
 }
 
@@ -299,7 +299,8 @@ p{
     border-radius: 25px;
     border: solid 2px #F91559;
     text-align: center;
-    color: #F91559;
+    color: #Ffffff;
+    background-color: #F91559;
     font-size: 18px;
     line-height: 38px;
     font-family: 'Lato', sans-serif;;
@@ -308,8 +309,9 @@ p{
 }
 
 .seeMore:hover{
-    background-color: #F91559;
-    color: white;
+    color: #F91559;
+    border: solid 2px #F91559;
+    background-color: #F8E4E4;
 }
 
 
@@ -399,8 +401,9 @@ p{
     height: 40;
     border-radius: 25px;
     border: solid 2px #F91559;
+    background-color: #F91559;
     text-align: center;
-    color: #F91559;
+    color: #ffffff;
     font-size: 18px;
     line-height: 38px;
     font-family: 'Lato', sans-serif;
@@ -414,8 +417,9 @@ p{
     height: 40;
     border-radius: 25px;
     border: solid 2px #000000;
+    background-color: black;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
     font-size: 17px;
     line-height: 38px;
     font-family: 'Lato', sans-serif;
@@ -424,14 +428,14 @@ p{
 }
 
 #buttonPink:hover{
-    background-color: #F91559;
-    color: #ffffff;
+    background-color: #Ffffff;
+    color: #F91559;
 }
 
 #buttonLong:hover{
-    background-color: #000000;
+    background-color: #ffffff;
     border: solid 2px #000000;
-    color: #ffffff;
+    color: #000000;
     font-weight: 500;
 }
 
