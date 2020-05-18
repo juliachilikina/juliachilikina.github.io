@@ -186,7 +186,7 @@ p{
 }
 
 .hello{
-    height: 420px;
+    height: 380px;
     width: 88%;
     margin-top: 78px;
     display: flex;
@@ -750,6 +750,10 @@ p{
 
 #noTop{
     padding-top: 0px;
+}
+
+#noTopMargin{
+    margin-top: 0px;
 }
 
 .caption{
