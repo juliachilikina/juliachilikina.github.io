@@ -9,6 +9,8 @@ body{
     align-items: center;
 }
 
+html{scroll-behavior:smooth}
+
 a{
     text-decoration: none;
     /*display: flex;
