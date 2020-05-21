@@ -210,7 +210,7 @@ p{
     height: 52px;
     background-color:#ffffff;
     margin-bottom: 80px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .UXprojects{
@@ -1064,9 +1064,7 @@ p{
         height: auto;
     }
     
-    #lastUXcard{
-        margin-bottom: 60px;
-    }
+  
 
     .button{
         display: flex;
