@@ -198,7 +198,7 @@ p{
 .section{
     display: flex;
     flex-direction: column;
-    margin-top: 120px;
+    padding-top: 120px;
     width: 100%;
 }
 
@@ -544,6 +544,9 @@ p{
     margin-top: 100px;
 }
 
+#caseSectionText{
+    width: 80%;
+}
 
 
 
@@ -661,6 +664,18 @@ p{
 
 .paragraph{
     width: 42%;
+    
+}
+
+
+.paragraph30{
+    width: 30%;
+    
+}
+
+
+.paragraph60{
+    width: 70%;
     
 }
 
@@ -885,7 +900,74 @@ p{
 .oneOfFour{
     width: 25%;
 }
- 
+
+
+/*WineAccess*/
+#zeroPadding{
+    padding-bottom: 0px;
+}
+
+#WAbeige{
+    background-color: #F7F6F5;
+}
+
+#yellowBG{
+width: 100%;
+height: 500px;
+top: 345px;
+background: #FFCA5F;
+}
+
+#yellowBGsmall{
+    width: 100%;
+    height: 100px;
+    background-color: #FFCA5F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+#yellowBGmedium{
+    width: 100%;
+    height: 200px;
+    background-color: #FFCA5F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+#WAimage{
+position: absolute;
+width: 50%;
+max-width: 800px;
+right: 70px;
+top: 190px;
+}
+
+#WAintro{
+position: absolute;
+width: 30%;
+height: 360px;
+left: 10%;
+top: 400px;
+}
+
+
+#WAyellow{
+    background: #FFE4AE;
+}
+
+#fullWidth{
+    width: 100%;
+}
+
+.padding180{
+    padding-bottom: 180px;
+}
+
+
+
+
 
 
 
@@ -1149,6 +1231,19 @@ p{
         padding-bottom: 80px;
     }
 
+    .paragraph30{
+        width: 100%;
+        padding-bottom: 80px;
+        
+    }
+    
+    
+    .paragraph60{
+        width: 100%;
+        padding-bottom: 80px;
+        
+    }
+
     #noPadding{
         padding-bottom: 20px;
     }
@@ -1270,7 +1365,14 @@ p{
     .topnav.responsive #contact {
   box-shadow: 0px 3px 0px 0px #F91559;}
 
-
+/*WineAccess*/
+#WAintro{
+position: absolute;
+width: 80%;
+height: 360px;
+left: 10%;
+top: 500px;
+}
 
 
 
@@ -1409,6 +1511,66 @@ p{
     }
 
     .oneOfFour{
+        width: 100%;
+    }
+
+    /*WineAccess*/
+    #zeroPadding{
+        padding-bottom: 0px;
+    }
+
+    #WAbeige{
+        background-color: #F7F6F5;
+    }
+
+    #yellowBG{
+    width: 100%;
+    height: 750px;
+    top: 345px;
+    background: #FFCA5F;
+    }
+
+    #yellowBGsmall{
+        width: 100%;
+        height: 100px;
+        background-color: #FFCA5F;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+    #yellowBGmedium{
+        width: 100%;
+        height: 200px;
+        background-color: #FFCA5F;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+    #WAimage{
+    position: absolute;
+    width: 80%;
+    max-width: 800px;
+    right: 10%;
+    left: 10%;
+    top: 260px;
+    }
+
+    #WAintro{
+    position: absolute;
+    width: 80%;
+    height: 460px;
+    left: 10%;
+    top: 500px;
+    padding-top: 40px;
+    }
+
+    #WAyellow{
+        background: #FFE4AE;
+    }
+
+    #fullWidth{
         width: 100%;
     }
   }
