@@ -90,7 +90,7 @@ p{
     font-family: 'Lato', sans-serif;
     line-height: 28px;
     /*text-align: justify;*/
-    font-weight: 400;
+    font-weight: 300;
     margin: 0px;
 }
 
@@ -99,7 +99,7 @@ p{
     color: black;
     font-family: 'Lato', sans-serif;
     line-height: 50px;
-    font-weight: 400;
+    font-weight: 300;
     font-style: italic;
     margin: 0px;
 }
