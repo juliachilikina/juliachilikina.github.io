@@ -1,4 +1,4 @@
-body{  
+Fbody{  
     margin: 0px;   
 }
 
@@ -404,7 +404,7 @@ p{
 }
 
 #buttonPink{
-    width: 130px;
+    width: 180px;
     height: 40;
     border-radius: 25px;
     border: solid 2px #F91559;
@@ -420,7 +420,7 @@ p{
 }
 
 #buttonLong{
-    width: 130px;
+    width: 180px;
     height: 40;
     border-radius: 25px;
     border: solid 2px #000000;
