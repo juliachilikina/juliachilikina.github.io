@@ -915,13 +915,13 @@ p{
 width: 100%;
 height: 500px;
 top: 345px;
-background: #F3E3D6;
+background: #881514;
 }
 
 #yellowBGsmall{
     width: 100%;
     height: 100px;
-    background-color: #FFCA5F;
+    background-color: #881514;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -930,7 +930,7 @@ background: #F3E3D6;
 #yellowBGmedium{
     width: 100%;
     height: 200px;
-    background-color: #FFCA5F;
+    background-color: #881514;
     display: flex;
     align-items: center;
     justify-content: center;
