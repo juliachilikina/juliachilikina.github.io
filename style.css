@@ -715,7 +715,7 @@ p{
 #smallerImage{
     width: 25%;
     height: auto;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column; 
     align-items: center;
