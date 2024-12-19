@@ -313,12 +313,27 @@ p{
     margin-top: 40px;
 }
 
+
 .seeMore:hover{
     color: #F91559;
     border: solid 2px #F91559;
     background-color: #F8E4E4;
 }
 
+.disabledbutton{
+    width: 180px;
+    height: 40;
+    border-radius: 25px;
+    border: solid 2px #857b7e;
+    text-align: center;
+    color: #Ffffff;
+    background-color: #857b7e;
+    font-size: 18px;
+    line-height: 38px;
+    font-family: 'Lato', sans-serif;;
+    font-weight: medium;
+    margin-top: 40px;
+}
 
 .code{
     height: 360px;
@@ -437,6 +452,13 @@ p{
 #buttonPink:hover{
     background-color: #Ffffff;
     color: #F91559;
+}
+
+#buttonPink:disabled{
+    
+    border: solid 2px #252324;
+    background-color: #252324;
+
 }
 
 #buttonLong:hover{
@@ -1604,3 +1626,4 @@ top: 500px;
         width: 100%;
     }
   }
+}
