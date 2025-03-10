@@ -186,9 +186,9 @@ p{
 }
 
 .hello{
-    height: 380px;
+    height: 250px;
     width: 88%;
-    margin-top: 78px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
